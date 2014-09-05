@@ -29,6 +29,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [self.choose1 setTag:1];
+    [self.choose2 setTag:2];
+    [self.choose3 setTag:3];
 }
 
 - (IBAction)drag:(id)sender forEvent:(UIEvent *)event
@@ -36,10 +39,14 @@
     NSSet *all = [event allTouches];
     NSArray *allTouch = [all allObjects];
     
-    UITouch *touch = allTouch[0];
+    UITouch *touch;
+    for (UITouch *check in allTouch)
+    {
+        if (check.view == sender)
+            touch = check;
+    }
     
     CGPoint point = [touch locationInView:self.view];
-    
     [sender setCenter:point];
 }
 
