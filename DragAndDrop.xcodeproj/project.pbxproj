@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9AA9E76219B97660004FDCEB /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA9E76119B97660004FDCEB /* SpriteKit.framework */; };
 		9AD0961419B8723E009DE26D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AD0961319B8723E009DE26D /* Foundation.framework */; };
 		9AD0961619B8723E009DE26D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AD0961519B8723E009DE26D /* CoreGraphics.framework */; };
 		9AD0961819B8723E009DE26D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AD0961719B8723E009DE26D /* UIKit.framework */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9AA9E76119B97660004FDCEB /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
 		9AD0961019B8723E009DE26D /* DragAndDrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragAndDrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AD0961319B8723E009DE26D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9AD0961519B8723E009DE26D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AA9E76219B97660004FDCEB /* SpriteKit.framework in Frameworks */,
 				9AD0961619B8723E009DE26D /* CoreGraphics.framework in Frameworks */,
 				9AD0961819B8723E009DE26D /* UIKit.framework in Frameworks */,
 				9AD0961419B8723E009DE26D /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		9AD0961219B8723E009DE26D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9AA9E76119B97660004FDCEB /* SpriteKit.framework */,
 				9AD0961319B8723E009DE26D /* Foundation.framework */,
 				9AD0961519B8723E009DE26D /* CoreGraphics.framework */,
 				9AD0961719B8723E009DE26D /* UIKit.framework */,
@@ -456,6 +460,7 @@
 				9AD0964419B8723E009DE26D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9AD0964519B8723E009DE26D /* Build configuration list for PBXNativeTarget "DragAndDropTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +469,7 @@
 				9AD0964719B8723E009DE26D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
